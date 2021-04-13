@@ -1,0 +1,18 @@
+//ATIVIDADE 1
+
+numero = int(input('Digite um número inteiro: '))
+
+if numero % 2:
+    print("Ímpar")
+else:
+    print("Par")
+    
+
+//ATIVIDADE 2
+
+import random
+
+print(random.randint(20, 100))
+
+//ATIVIDADE 3
+
