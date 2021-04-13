@@ -16,3 +16,17 @@ print(random.randint(20, 100))
 
 //ATIVIDADE 3
 
+quantidade = int(input('Digite a quantidade desejada: '))
+valormenosque500 = 47.50
+valor500a1000 = 42.50
+valormaisque1000 = 39.50
+valorfinal = 0
+if quantidade <= 500:
+    valorfinal = quantidade*valormenosque500
+    print(valorfinal)
+elif quantidade >= 501 and quantidade <= 1000:
+    valorfinal = quantidade*valor500a1000
+    print(valorfinal)
+elif quantidade >= 1000:
+    valorfinal = quantidade*valormaisque1000
+    print(valorfinal)
