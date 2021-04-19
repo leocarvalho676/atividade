@@ -30,3 +30,39 @@ elif quantidade >= 501 and quantidade <= 1000:
 elif quantidade >= 1000:
     valorfinal = quantidade*valormaisque1000
     print(valorfinal)
+
+//ATIVIDADE 4
+
+import random
+numeroaleatorio = random.randint(0,10)
+numeroescolhido = int(input('Digite um número de 1 a 10: '))
+print('o número sorteado foi')
+print(numeroaleatorio)
+if numeroaleatorio is numeroescolhido:
+    print('Meus parabéns você foi premiado com um curso de Python')
+else:
+    print('Não desista, tente novamente!')
+    
+   
+ //ATIVIDADE 5
+ 
+ texto = "O professor estava atravessando a rua quando apareceu um amigo, também professor, que o convidou para sair e comer uma pizza."
+
+x = texto.count("a", 1, 200) + texto.count("A", 1, 200)
+
+print(x) 
+
+//ATIVIDADE 6
+
+//ATIVIDADE 7
+numero=int(input("Digite um número:"))
+if(numero%3==0):
+    print("{} é divisível por 3".format(numero))
+else:
+    print("{} não é divisível por 3".format(numero))
+if(numero%2==0):
+    print("{} é divisível por 2".format(numero))
+else:
+    print("{} não é divisível por 2".format(numero))
+    
+//ATIVIDADE 8
