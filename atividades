@@ -66,3 +66,15 @@ else:
     print("{} não é divisível por 2".format(numero))
     
 //ATIVIDADE 8
+nomealuno=str(input("Digite o nome do aluno:"))
+nota1=int(input("Digite a nota do primeiro trimestre:"))
+nota2=int(input("Digite a nota do segundo trimestre:"))
+nota3=int(input("Digite a nota do terceiro trimestre:"))
+media = (nota1+nota2+nota3)/3
+print("A média do aluno foi:",media)
+if media <= 4:
+    print("O aluno",nomealuno,"teve a média de",media,"e foi reprovado.")
+elif media < 7 and media >= 4:
+    print("O aluno", nomealuno, "teve a média de", media, "e está em recuperação.")
+elif media >= 7:
+    print("O aluno", nomealuno, "teve a média de", media, "e está aprovado.")
