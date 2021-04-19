@@ -54,6 +54,27 @@ print(x)
 
 //ATIVIDADE 6
 
+import math
+a = int(input('Valor a: '))
+
+if (a == 0):
+    print('Se a=0, não é equação do segundo grau.')
+else:
+    b = int(input('Valor b: '))
+    c = int(input('Valor c: '))
+    delta = b * b - (4 * a * c)
+
+    if delta < 0:
+        print('Delta menor que 0.')
+    elif delta == 0:
+        raiz = -b / (2 * a)
+        print('Delta=0 , raiz = ', raiz)
+    else:
+        raiz1 = (-b + math.sqrt(delta)) / (2 * a)
+        raiz2 = (-b - math.sqrt(delta)) / (2 * a)
+        print('Raizes: ', raiz1, ' e ', raiz2)
+        
+        
 //ATIVIDADE 7
 numero=int(input("Digite um número:"))
 if(numero%3==0):
